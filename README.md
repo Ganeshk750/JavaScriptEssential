@@ -18,11 +18,25 @@ _**JavaScript array methods:-**_
 15.flatMap()
 ```
 ## some():-
-This method tests the array with a function passed as a parameter. It will return ```true``` if at lest one element matches the test and ```false``` for the opposite
+This method tests the array with a function passed as a parameter. It will return ```true``` if at lest one element matches the test and ```false``` for the opposite.
 ```javascript
 const myArray = ['a', 'b', 'c','d', 'e'];
 myArray.some(test => test === 'c');
 
 //Output: true
 ```
+## every():-
+This method tests the array with a function passed as a parameter. It will return ```true``` if at lest one element matches the test and ```false``` for the opposite.
+```javascript
+const myArray = ['a', 'b', 'c','d', 'e'];
+myArray.every(test => test === 'c');
+
+//Output: false
+
+const myArray = ['a', 'a', 'a','a', 'a'];
+myArray.every(test => test === 'a');
+
+//Output: true
+```
+
 
