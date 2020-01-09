@@ -1,6 +1,6 @@
 # JavaScriptEssential
 _**JavaScript array methods:-**_
----
+***
 1.some()
 2.every()
 3.reduce()
@@ -16,5 +16,5 @@ _**JavaScript array methods:-**_
 13.includes()
 14.reverse()
 15.flatMap()
----
+***
 
