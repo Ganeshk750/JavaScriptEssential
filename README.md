@@ -38,5 +38,37 @@ myArray.every(test => test === 'a');
 
 //Output: true
 ```
+## reduce():-
+This method recevies a function which has an accumulator and a value as an argument. It applies the function to the accumulator and each value in the array to return at the end just a single value.
+
+```javascript
+const myArray = [1,2,3,4,5];
+myArray.reduce((total, value) => total * value);
+
+// 1*2*3*4*5 = 120
+//Output:- 120
+```
+## map():-
+This method recevies a function as a parameter. And return a new array that contains an image of each element of the array.It will always return the same amount of items.
+```javascript
+const myArray = [
+  {id: 1, name:'Ganesh'},
+    {id: 2, name:'Aditya'},
+      {id: 3, name:'Ajeet'}];
+      
+      myArray.map(element => console.log(element.name));
+      
+      // Output:- Ganesh
+                  Aditya
+                  Ajeet
+  ```
+  ## flat():-
+  This method creates a new array that contains the elements holden an the sub-array and flat it into the new array. Notice that, this     method will go only one level depth.
+  ```javascript
+  const myArray = [[1,2],[3,5],5];
+  myArray.flat();
+  //Output:- [1,2,3,4,5]
+```
+  
 
 
