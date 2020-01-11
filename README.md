@@ -59,8 +59,8 @@ const myArray = [
       myArray.map(element => console.log(element.name));
       
       // Output:- Ganesh
-                  Aditya
-                  Ajeet
+                //  Aditya
+                //  Ajeet
   ```
   ## flat():-
   This method creates a new array that contains the elements holden an the sub-array and flat it into the new array. Notice that, this     method will go only one level depth.
@@ -69,6 +69,17 @@ const myArray = [
   myArray.flat();
   //Output:- [1,2,3,4,5]
 ```
-  
+## filter():- 
+This method recevies a function as a parameter and return a new array that contains all the elements of the array for which the filtering function passed as a agument retrun `true`.
+```javascript
+ const myArray = [
+{id: 1, name:'Jack' },
+{id: 2, name:'Joy'},
+{id: 3, name: 'David'},
+{id: 4, name: 'David'}];
+myArray.filter(element => element.name === 'David');
+
+//Output:- 0:{id: 3, name: 'David'}
+           1:{id: 4, name: 'David'}
 
 
