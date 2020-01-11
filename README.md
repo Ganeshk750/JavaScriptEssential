@@ -80,6 +80,18 @@ This method recevies a function as a parameter and return a new array that conta
 myArray.filter(element => element.name === 'David');
 
 //Output:- 0:{id: 3, name: 'David'}
-           1:{id: 4, name: 'David'}
+ //        1:{id: 4, name: 'David'}
+```
+## forEach():-
+   This method applies a function to each element of the array.
+```javascript
+ const myArray = [
+{id: 1, name:'Jack' },
+{id: 2, name:'Joy'},
+{id: 3, name: 'David'}];
 
-
+myArray.forEach(element => console.log(element.name));
+//Output:- Jack
+//         Joy
+//         David
+```
