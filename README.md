@@ -125,4 +125,14 @@ myArray.find(element => element.id === 7);
 ```
 ## sort():-
 This method receives a function as a parameter.It sort the elements of an the array and returns it.
+```javascript
+const myArray = [5,4,3,2,1]
+//Sort from smallest to largest
+myArray.sort((a,b) => a - b);
+//Output:- [1,2,3,4,5];
+
+//Sort from largest to smallest
+myArray.sort((a, b) => b - a);
+//Output:- [5,4,3,2,1]
+```
 
