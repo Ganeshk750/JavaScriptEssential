@@ -111,3 +111,15 @@ myArray.findIndex(element => element.id === 7);
 ```
 ## find():-
 This method recevies a function as an argument and will apply it to the array. it returns the value of an element found in the array and which satisfies the test function otherwise, it returns `undefined`.
+```javascript
+ const myArray = [
+{id: 1, name:'Jack' },
+{id: 2, name:'Joy'},
+{id: 3, name: 'David'}];
+
+myArray.find(element => element.id === 3);
+//Output:- {id:3, name:'David'}
+
+myArray.find(element => element.id === 7);
+//Output:- undefined
+```
