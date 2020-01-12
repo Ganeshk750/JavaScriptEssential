@@ -109,3 +109,5 @@ myArray.findIndex(element => element.id === 3);
 myArray.findIndex(element => element.id === 7);
 //Output:- -1
 ```
+## find():-
+This method recevies a function as an argument and will apply it to the array. it returns the value of an element found in the array and which satisfies the test function otherwise, it returns `undefined`.
