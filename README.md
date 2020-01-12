@@ -97,3 +97,15 @@ myArray.forEach(element => console.log(element.name));
 ```
 ## findIndex():-
 This method receives a function as a parameter and will apply it to the array. It returns the index of an element fond and which satisfies the test function passed as an argument or `-1` if not none satisfies it.
+```javascript
+ const myArray = [
+{id: 1, name:'Jack' },
+{id: 2, name:'Joy'},
+{id: 3, name: 'David'}];
+
+myArray.findIndex(element => element.id === 3);
+//Output:- 2
+
+myArray.findIndex(element => element.id === 7);
+//Output:- -1
+```
