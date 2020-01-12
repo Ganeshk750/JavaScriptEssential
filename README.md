@@ -95,3 +95,5 @@ myArray.forEach(element => console.log(element.name));
 //         Joy
 //         David
 ```
+## findIndex():-
+This method receives a function as a parameter and will apply it to the array. It returns the index of an element fond and which satisfies the test function passed as an argument or `-1` if not none satisfies it.
