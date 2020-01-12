@@ -110,7 +110,7 @@ myArray.findIndex(element => element.id === 7);
 //Output:- -1
 ```
 ## find():-
-This method recevies a function as an argument and will apply it to the array. it returns the value of an element found in the array and which satisfies the test function otherwise, it returns `undefined`.
+This method receives a function as an argument and will apply it to the array. it returns the value of an element found in the array and which satisfies the test function otherwise, it returns `undefined`.
 ```javascript
  const myArray = [
 {id: 1, name:'Jack' },
@@ -123,3 +123,6 @@ myArray.find(element => element.id === 3);
 myArray.find(element => element.id === 7);
 //Output:- undefined
 ```
+## sort():-
+This method receives a function as a parameter.It sort the elements of an the array and returns it.
+
